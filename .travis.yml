@@ -6,7 +6,7 @@ node_js:
 sudo: required
 
 services:
-  - docker
+  - nodejs
 
 after_deploy:
   - echo "done deploying"
